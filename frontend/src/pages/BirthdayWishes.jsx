@@ -6,24 +6,24 @@
       id: 1,
       name: "John Doe",
       role: "Senior Software Engineer",
-      dob: "27/01",
-      doj: "27/01",
+      dob: "29/01",
+      doj: "29/01",
       avatar: "https://i.pravatar.cc/150?img=3",
     },
     {
       id: 2,
       name: "Neha Sharma",
       role: "HR Manager",
-      dob: "27/01",
-      doj: "10/05",
+      dob: "29/01",
+      doj: "29/01",
       avatar: "https://i.pravatar.cc/150?img=5",
     },
       {
       id: 2,
-      name: "Sulochan prG",
+      name: "Ajaypal G",
       role: "HR Manager",
-      dob: "27/01",
-      doj: "10/05",
+      dob: "29/01",
+      doj: "29/01",
       avatar: "https://i.pravatar.cc/150?img=5",
     },
     {
@@ -32,6 +32,14 @@
       role: "UI Developer",
       dob: "18/01",
       doj: "17/01",
+      avatar: "https://i.pravatar.cc/150?img=8",
+    },
+      {
+      id: 4,
+      name: "dheeraj Kumar",
+      role: "Software Engineer",
+      dob: "29/01",
+      doj: "29/01",
       avatar: "https://i.pravatar.cc/150?img=8",
     },
   ];
@@ -588,4 +596,5 @@
   // };
 
   // export default BirthdayCard;
+
 
