@@ -1,0 +1,174 @@
+.dash-wrapper {
+  min-height: 100vh;
+  padding: 22px;
+  background: radial-gradient(circle at top left, #ff4ecd22, transparent 55%),
+    radial-gradient(circle at bottom right, #6a5bff22, transparent 55%),
+    linear-gradient(120deg, #050814, #0b1026);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.dash-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.dash-title {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.dash-subtitle {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 5px;
+}
+
+.dash-btn {
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: 0.3s;
+}
+
+.dash-btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.stat-card {
+  grid-column: span 4;
+  border-radius: 18px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(14px);
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+.stat-card h4 {
+  font-size: 12px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.stat-card p {
+  margin: 8px 0 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+@media (max-width: 850px) {
+  .stat-card {
+    grid-column: span 12;
+  }
+}
+
+.panel-card {
+  border-radius: 18px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  box-shadow: 0px 16px 45px rgba(0, 0, 0, 0.5);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.panel-header input,
+.panel-header select {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+  color: white;
+}
+
+.panel-header input::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.row-card {
+  padding: 12px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.row-card:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff4ecd, #6a5bff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: white;
+}
+
+.emp-info {
+  flex: 1;
+}
+
+.emp-info h3 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.emp-info p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.delete-btn {
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff3b3b, #ff7b00);
+  color: white;
+}
